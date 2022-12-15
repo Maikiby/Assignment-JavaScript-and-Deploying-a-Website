@@ -24,8 +24,9 @@ body {
 
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
-
- 
+.flex {
+    display: flex;
+}
 
 /************* site-wide text styling *************/
 
