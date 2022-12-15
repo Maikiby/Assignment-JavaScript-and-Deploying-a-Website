@@ -222,6 +222,41 @@ img {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact {
+    height: 420px;
+    text-align: center;
+}
 
+.contact label {
+    width: 150px;
+    text-align: right;
+}
 
+.contact input {
+    width: 300px;
+}
 
+.contact div {
+    gap: 24px;
+    justify-content: center;
+}
+
+.contact textarea {
+    height: 150px;
+    width: 300px;
+}
+
+.contact input, .contact textarea, .contact button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px; /*I followed the specifications, but this line height seems to be the doing the opposite of what is shown on the screenshots*/
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
+
+#submit-button {
+    position: relative;
+    margin-right: auto;
+    margin-left: 410px;
+    width: 306px;
+}
