@@ -62,7 +62,7 @@ h2 {
 .fake-button {
     display: inherit;
     background-color: #E5AF42;
-    text-align: center;
+    justify-content: center;
     line-height: 3;
     border: 1px solid;
 }
