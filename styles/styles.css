@@ -136,10 +136,32 @@ h1 {
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
+.index .about-us {
+    columns: 1;
+    margin-right: 25px;
+}
 
+img {
+    width: 300px;
+    margin-bottom: 50px;
+}
 
+.index h2 {
+    line-height: 36px;
+}
 
+.index p {
+    margin-bottom: 12px;
+}
 
+.index .fake-button {
+    width: 250px;
+}
+
+.index:nth-child(2) div {
+    gap: 150px;
+    justify-content: center;
+}
 
 /************* bookings page *************/
 
