@@ -177,17 +177,41 @@ img {
 
 */
 
+.booking-page {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+}
 
+.day-selector {
+    margin-bottom: 12px;
+    gap: 20px;
+    justify-content: center;
+}
 
+.day-selector li {
+    width: 60px;
+}
 
+.booking-page li, .small-button {
+    border: solid 1px black;
+}
 
+.small-button {
+    padding: 5px;
+}
 
+#clear-button {
+    width: 198px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-
-
-
+.clicked {
+    background-color: #E5AF42;
+}
 
 /************* contact page *************/
 /* TO DO:
