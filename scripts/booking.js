@@ -32,10 +32,17 @@ document.getElementById("friday").onclick = function() {addClicked(friday)}
 /********* clear days *********/
 // when the clear-button is clicked, the "clicked" class is removed from all days, any other relevant variables are reset, and the calculated cost is set to 0.
 
+let clearButton = document.getElementById("clear-button")
 
-
-
-
+clearButton.onclick = () => {
+    document.getElementById("monday").classList.remove("clicked")
+    document.getElementById("tuesday").classList.remove("clicked")
+    document.getElementById("wednesday").classList.remove("clicked")
+    document.getElementById("thursday").classList.remove("clicked")
+    document.getElementById("friday").classList.remove("clicked")
+    dayCount = 0
+    dayCost = 0
+} /*There's definitely a cleaner way to do this but I couldn't figure out how to target all the <li> from here*/
 
 /********* change rate *********/
 // when the half-day button is clicked, set the daily rate to $20, add the "clicked" class to the "half" element, remove it from the "full" element, and recalculate the total cost.
