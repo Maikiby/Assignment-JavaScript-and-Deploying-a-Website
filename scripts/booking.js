@@ -11,8 +11,22 @@ let dayCount = 0
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
 // added challenge: don't update the dayCounter if the same day is clicked more than once. hint: .classList.contains() might be helpful here!
 
+function addClicked(day) {
+    if (day.classList.contains("clicked")){
+        //pass
+    }
+    else {
+        day.classList.add("clicked")
+        dayCount = dayCount +1
+    }
+    
+}
 
-
+document.getElementById("monday").onclick = function() {addClicked(monday)}
+document.getElementById("tuesday").onclick = function() {addClicked(tuesday)}
+document.getElementById("wednesday").onclick = function() {addClicked(wednesday)}
+document.getElementById("thursday").onclick = function() {addClicked(thursday)}
+document.getElementById("friday").onclick = function() {addClicked(friday)}
 
 
 /********* clear days *********/
