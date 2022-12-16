@@ -51,6 +51,7 @@ clearButton.onclick = () => {
     document.getElementById("friday").classList.remove("clicked")
     dayCount = 0
     dayCost = 0
+    calcCost()
 } /*There's definitely a cleaner way to do this but I couldn't figure out how to target all the <li> from here*/
 
 /********* change rate *********/
